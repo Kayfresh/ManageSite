@@ -7,7 +7,7 @@ const navList = document.querySelector('.nav-ul');
 openNav.addEventListener('click', () => {
   openNav.style.display = 'none';
   closeNav.style.display = 'block';
-  navList.style.display = 'block';
+  navList.style.display = 'flex';
 });
 
 closeNav.addEventListener("click", () => {
